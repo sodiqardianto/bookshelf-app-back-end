@@ -25,11 +25,13 @@ const routes = [
     path: "/books/{bookId}",
     handler: getBookByIdHandler,
   },
+  // ROUTE EDIT BOOKS BY ID
   {
     method: "PUT",
     path: "/books/{bookId}",
     handler: editBookByIdHandler,
   },
+  // ROUTE DELETE BOOKS BY ID
   {
     method: "DELETE",
     path: "/books/{bookId}",

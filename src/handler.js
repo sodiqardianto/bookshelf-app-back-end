@@ -155,15 +155,13 @@ const getAllBooksHandler = (request, h) => {
 const getBookByIdHandler = (request, h) => {
   const { bookId } = request.params;
 
-  const bookshelf = bookshelfs.filter(
-    (bookshelf) => bookshelf.id === bookId
-  )[0];
+  const book = bookshelfs.filter((book) => book.id === bookId)[0];
 
-  if (bookshelf !== undefined) {
+  if (book !== undefined) {
     return {
       status: "success",
       data: {
-        bookshelf,
+        book,
       },
     };
   }
