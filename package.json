@@ -1,0 +1,28 @@
+{
+  "name": "bookshelf-app-back-end",
+  "version": "1.0.0",
+  "description": "Bookshelf API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodiqardianto/bookshelf-app-back-end.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "backend",
+    "development",
+    "production",
+    "book",
+    "read"
+  ],
+  "author": "Sodiq Ardianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodiqardianto/bookshelf-app-back-end/issues"
+  },
+  "homepage": "https://github.com/sodiqardianto/bookshelf-app-back-end#readme"
+}
